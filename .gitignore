@@ -1,0 +1,23 @@
+# Local builds and extracted proprietary application files
+/app/
+/app-*/
+/patched-module.mjs
+*.exe
+*.asar
+*.dll
+*.lnk
+
+# Dependencies and Python caches
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Local UI profiles, diagnostics, chat captures and credentials
+*profile*/
+*.log
+*.pid
+.env
+.env.*
+*.png
+*.jpg
+*.jpeg
